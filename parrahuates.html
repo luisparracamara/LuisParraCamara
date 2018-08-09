@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Luis Parra Cámara</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- MIS CSS -->
+    
+   <link rel="stylesheet" href="css/menu/contenidoParrahuates.css">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+    <script src="jquery-3.3.1.js"></script>
+
+<script>
+  $(document).ready(function(){
+
+    $(".respuesta").hide();
+
+      $("h5").click(function(){
+                
+                // La función fadeToggle () además de alternar un estado también incluye el fadeIn y el fadeOut
+
+                $(this).next(".respuesta").fadeToggle();
+                $(this).addClass("cerrar");
+
+               //Usé la función toggleClass para quitar y poner la clase .cerrar
+
+                $(this).toggleClass("cerrar");
+
+                
+            });
+            
+        });
+  
+</script>
+    
+
+</head>
+
+<body>
+
+
+
+		<header>
+			<a href="index.html" style="text-decoration: none; color: white;"><h1><i class="fas fa-home"></i>&nbsp;Luis Parra Cámara</h1></a>
+			
+		</header>
+
+
+
+
+
+  <!--------------- CONTENIDO---------------------  -->
+
+            <div id="contenido" class="shadow-sm p-3 mb-5 bg-white rounded">
+                
+          
+
+             <div class="container">
+             	
+             	<div class="jumbotron" id="cuadro1">
+				  <h1 class="display-4" align="center" style="color: white">
+				  	
+					 ParraHuates</h1>
+				  </div>
+
+
+
+				 <div id="contenido" class="shadow-sm p-3 mb-5 rounded">
+
+					<div class="card-group" id="cartas">
+					  <div class="card">
+					    
+					    <div class="card-body">
+					      <h5 class="card-title" align="center">ParraHuates</h5>
+					      <p class="card-text" align="justify">Proyecto actualmente en desarrollo para la micro empresa de mi familia la cual consiste en la distribución a tiendas comerciales de cacahuates por la región. </p>
+					      <p>El sistema realiza las operaciones de agregar, eliminar y modificar la información acerca de las tiendas que se manejan, las ventas que se realizan al igual que las compras y gestionar las ganancias del negocio.</p>
+					      
+					      
+					      
+					      <div class="principal">
+						<h1>Información técnica</h1>
+
+				<h5 class="tituloPregunta"><i class="fas fa-chevron-down"></i>
+				Lenguajes utilizados</h5>
+			     <div class="respuesta">
+			      <ul>
+			      	<li><i class="fab fa-html5" id="icono1">&nbsp;</i>HTML5</li>
+			      	<li><i class="fab fa-php" id="icono2">&nbsp;</i>PHP</li>
+			      	<li><i class="fab fa-js" id="icono3">&nbsp;</i>JAVASCRIPT</li>
+			      	<li><i class="fab fa-css3-alt"id="icono1">&nbsp;</i>CSS3</li>
+			      	
+			      </ul>
+			      </div>
+			      
+			      <h5 class="tituloPregunta"><i class="fas fa-chevron-down"></i>Frameworks utilizados</h5>
+			      <div class="respuesta">
+			        <ul>
+			      	<li><i class="fas fa-bold" id="icono2"></i>&nbsp;</i>BOOTSTRAP</li>
+			      	<li><i class="fab fa-js" id="icono1">&nbsp;</i>JQUERY</li>
+			      </ul>
+			      </div>
+			      
+			      <h5 class="tituloPregunta"><i class="fas fa-chevron-down"></i>Base de datos</h5>
+			      <div class="respuesta">
+			        <ul>
+			      	<li><i class="fas fa-database" id="icono4"></i>&nbsp;</i>MYSQL</li></ul>
+			     
+			</div>
+
+			<h5 class="tituloPregunta"><i class="fas fa-chevron-down"></i>Capturas de pantalla</h5>
+			      <div class="respuesta">
+			        <img src="img/Inicio_parrahuates.PNG" alt="menuPH" class="img-thumbnail">
+			        <div id="pieCaptura">
+			        	<p id="piefotoLetras">Sección del menú para elegir las distintas opciones del sistema.</p></div>
+
+
+			        <img src="img/menuTiendas_parrahuates.PNG" alt="menuPH" class="img-thumbnail">
+			        <div id="pieCaptura">
+			        	<p id="piefotoLetras">Sección de la parte de tiendas donde el usuario puede agregar,eliminar,modificar las tiendas.</p></div>
+
+			        <img src="img/buscar_parrahuates.PNG" alt="menuPH" class="img-thumbnail">
+			        <div id="pieCaptura">
+			        	<p id="piefotoLetras">Sección de la parte de tiendas donde el usuario puede buscar una tienda y ver los detalles de la misma.</p></div>
+			</div>
+	
+			<h5 class="tituloPregunta"><i class="fas fa-chevron-down"></i>Descarga</h5>
+			      <div class="respuesta">
+			        <p>Actualmente en desarrollo</p>
+			        <p><a href="https://drive.google.com/open?id=1v6cXUzJL72Znq9QilZpOvE6AV6x1IBsV" id="enlaceDescarga">Código hasta el momento</a></p>
+
+			     
+			</div>	
+
+			</div>
+
+							
+					    </div>
+					  </div>
+
+
+					  
+				 
+				</div>
+			</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+div #contenido{
+width: 100%;
+height: auto;
+background: #5B2C6F;
+
+
+
+}
+
+
+#cartas{
+    margin-top: 30px;
+}
+
+
+  header{
+    height: 15vh;
+    width: 100%;
+    background-image: url("../../img/header.png");
+    background-color: rgb(50,100,100);
+    background-blend-mode: soft-light;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#cuadro1{
+    height: 190px;
+    background:#5B2C6F;
+}
+
+.principal{
+   
+}
+
+h5{
+    cursor: pointer;
+}
+
+li{
+list-style: none;
+color: #4D5656;
+font-size: 20px;
+}
+
+#icono1{
+   color: #E74C3C; 
+}
+
+#icono2{
+    color: #9B59B6;
+}
+#icono3{
+color: #F1C40F;
+}
+
+#icono4{
+    color: #2E86C1;
+}
+
+
+#pieCaptura{
+    background: #EC7063;
+   
+    
+}
+#piefotoLetras{
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+}
+#adorno{
+    background: red;
+    width: 20px;
+}
+
+.tituloPregunta{
+    font-size: 30px;
+    color: #117864;
+    padding: 20px;
+   
+}
+
+#enlaceDescarga{
+margin-left: auto;
+}
+
+p{
+    font-size: 20px;
+}

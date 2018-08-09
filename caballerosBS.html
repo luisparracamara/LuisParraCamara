@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Luis Parra Cámara</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- MIS CSS -->
+    
+    <link rel="stylesheet" href="css/menu/contenidoCaballeros.css">
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+    <script src="jquery-3.3.1.js"></script>
+
+<script>
+  $(document).ready(function(){
+
+    $(".respuesta").hide();
+
+      $("h5").click(function(){
+                
+                // La función fadeToggle () además de alternar un estado también incluye el fadeIn y el fadeOut
+
+                $(this).next(".respuesta").fadeToggle();
+                $(this).addClass("cerrar");
+
+               //Usé la función toggleClass para quitar y poner la clase .cerrar
+
+                $(this).toggleClass("cerrar");
+
+                
+            });
+            
+        });
+  
+</script>
+    
+
+</head>
+
+<body>
+
+
+
+		<header>
+			<a href="index.html" style="text-decoration: none; color: white;"><h1><i class="fas fa-home"></i>&nbsp;Luis Parra Cámara</h1></a>
+			
+		</header>
+
+
+
+
+
+  <!--------------- CONTENIDO---------------------  -->
+
+            <div id="contenido" class="shadow-sm p-3 mb-5 bg-white rounded">
+                
+          
+
+             <div class="container">
+             	
+             	<div class="jumbotron" id="cuadro1">
+				  <h1 class="display-4" align="center" style="color: white">
+				  	
+					 Caballeros BarberShop</h1>
+				  </div>
+
+
+
+				 <div id="contenido" class="shadow-sm p-3 mb-5 rounded">
+
+					<div class="card-group" id="cartas">
+					  <div class="card">
+					    
+					    <div class="card-body">
+					      <h5 class="card-title" align="center">Caballeros BarberShop</h5>
+					      <p class="card-text" align="justify">Proyecto escolar finalizado en el año 2017 y actualmente utilizado por un barbero en Ciudad Obregón. </p>
+					      <p>Sistema de escritorio que realiza las operaciones de agendar citas, administrar usuarios, empleados, egresos y cortes, además de generar reportes de ventas.</p>
+					      
+					      
+					      
+					      <div class="principal">
+						<h1>Información técnica</h1>
+
+				<h5 class="tituloPregunta"><i class="fas fa-chevron-down"></i>
+				Lenguajes utilizados</h5>
+			     <div class="respuesta">
+			      <ul>
+			      	<li><i class="fab fa-java" id="icono1"></i>&nbsp;</i>JAVA</li>
+			      </ul>
+			      </div>
+			      
+			      <h5 class="tituloPregunta"><i class="fas fa-chevron-down"></i>Frameworks utilizados</h5>
+			      <div class="respuesta">
+			        <ul>
+			      	<li>&nbsp;</i>Ninguno</li>
+			      	
+			      </ul>
+			      </div>
+			      
+			      <h5 class="tituloPregunta"><i class="fas fa-chevron-down"></i>Base de datos</h5>
+			      <div class="respuesta">
+			        <ul>
+			      	<li><i class="fas fa-database" id="icono4"></i>&nbsp;</i>MYSQL</li></ul>
+			     
+			</div>
+
+			<h5 class="tituloPregunta"><i class="fas fa-chevron-down"></i>Capturas de pantalla</h5>
+			      <div class="respuesta">
+			        <img src="img/login_cbs.PNG" alt="menuPH" class="img-thumbnail">
+			        <div id="pieCaptura">
+			        	<p id="piefotoLetras">Pantalla de inicio de sesión.</p></div>
+
+
+			        <img src="img/menu_cbs.PNG" alt="menuPH" class="img-thumbnail">
+			        <div id="pieCaptura">
+			        	<p id="piefotoLetras">Menú del sistema donde se presentan las distintas opciones que tiene el sistema.</p></div>
+
+			        <img src="img/agregar_cbs.PNG" alt="menuPH" class="img-thumbnail">
+			        <div id="pieCaptura">
+			        	<p id="piefotoLetras">Sección de la parte de ventas donde se registran los cortes y otros servicios.</p></div>
+			</div>
+	
+			<h5 class="tituloPregunta"><i class="fas fa-chevron-down"></i>Descarga</h5>
+			      <div class="respuesta">
+			        
+			        <p><a href="https://mega.nz/#!Qtd3TSjL!nhJMoafg75MewOrP0Swxs9wLQMZsI2E2eK6WFBJ2ZO0" id="enlaceDescarga">Código fuente</a></p>
+
+			     
+			</div>	
+
+			</div>
+
+							
+					    </div>
+					  </div>
+
+
+					  
+				 
+				</div>
+			</div>
+
+
+</body>
+
+</html>

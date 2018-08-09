@@ -1,0 +1,45 @@
+
+div #contenido{
+width: 100%;
+height: auto;
+background: #117A65;
+}
+
+
+#botonIr{
+    margin-left: 30%;
+}
+
+#cartas{
+    margin-top: 30px;
+}
+
+
+
+  header{
+    height: 15vh;
+    width: 100%;
+    background-image: url("../../img/header.png");
+    background-color: rgb(50,100,100);
+    background-blend-mode: soft-light;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#cuadro1{
+    height: 190px;
+    background:#117A65;
+}
+
+#home{
+color: white;
+text-decoration:none;
+margin-right: 119%;
+}
